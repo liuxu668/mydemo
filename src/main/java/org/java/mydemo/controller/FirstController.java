@@ -13,7 +13,6 @@ public class FirstController {
     @ApiOperation(value = "第一个测试方法")
     @RequestMapping(value = "/first",method = {RequestMethod.GET,RequestMethod.POST})
     public String first(){
-
         return "index";
     }
 
